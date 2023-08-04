@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-div{  
+  
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.child-div{   
+    text-align: center;
+    padding: 200px ;   
+}
+.child-div figure figcaption{
+    font-size: 18px;
+}
+.add-items{
+   margin-top: 20px;
+}
+.add-items input{
+    width: 30%;
+    padding: 8px 10px;
+    outline: none;
+  
+}
+.add-btn{
+    padding: 8px 15px;
+}
+.eachitems{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
